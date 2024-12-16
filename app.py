@@ -4,5 +4,5 @@ import streamlit as st
 st.title("Metabase Dashboard Embedding")
 
 # Embed Metabase Dashboard
-metabase_url = "/collection/10-client-dashboard-2-facts-v2"
+metabase_url = "https://commversion.metabaseapp.com/collection/10-client-dashboard-2-facts-v2"
 st.markdown(f'<iframe src="{metabase_url}" width="800" height="600" frameborder="0"></iframe>', unsafe_allow_html=True)
